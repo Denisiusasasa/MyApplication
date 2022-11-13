@@ -1,21 +1,25 @@
 package com.example.myapplication;
+
 import java.util.Scanner;
+
 public class Homework {
+
     public static void main(String[] args) {
-    task1();
-    task2();
-    task3();
+        task1();
+        task2();
+        task3();
+        task4();
     }
-    
-        public static void task1() {
+
+    public static void task1() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число: ");
         if (scanner.nextInt() % 2 == 0) {
             System.out.println("Ваше число четное!");
-        } else{
+        } else {
             System.out.println("Ваше число нечетное!");
         }
-       }
+    }
 
     public static void task2() {
         Scanner scanner = new Scanner(System.in);
@@ -33,7 +37,7 @@ public class Homework {
             System.out.println(first + " меньшее число ");
         } else if (second < first && second < third) {
             System.out.println(second + " меньшее число ");
-        } else if  (third < first && third < second){
+        } else if (third < first && third < second) {
             System.out.println(third + " меньшее число ");
         }
     }
@@ -68,6 +72,15 @@ public class Homework {
                 System.out.println("Неизвестный день недели");
         }
     }
+
+    public static void task4() {
+        for (int i = 0; i <= 100; i += 5) {
+            if (i != 0) {
+                System.out.println(i);
+            }
+        }
+    }
 }
+
 
 
