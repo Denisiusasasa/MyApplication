@@ -15,21 +15,21 @@ public class HomeworkOfLesson10 {
     static void checkingTheLastNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите номер документа");
-        String numberDocumentary = scanner.nextLine();
+        String numberOfDocumentary = scanner.nextLine();
         while (true) {
-            if (numberDocumentary.matches(REGEX_DOCUMENT)) {
+            if (numberOfDocumentary.matches(REGEX_DOCUMENT)) {
                 break;
             } else {
                 System.out.println("Неправильный ввод");
                 System.out.println("Введите номер документа ");
-                numberDocumentary = scanner.nextLine();
+                numberOfDocumentary = scanner.nextLine();
             }
         }
-        ActionsWitTheDocumentNumber.introduceTheTwoBlocksOfDigits(numberDocumentary);
-        ActionsWitTheDocumentNumber.changingBlocksOfLetters(numberDocumentary);
-        ActionsWitTheDocumentNumber.outputOnlyLetters(numberDocumentary);
-        ActionsWitTheDocumentNumber.checkingTheContentOfTheSequence(numberDocumentary);
-        ActionsWitTheDocumentNumber.checkingTheLastNumber(numberDocumentary);
+        ActionsWitTheDocumentNumber.introduceTheTwoBlocksOfDigits(numberOfDocumentary);
+        ActionsWitTheDocumentNumber.changingBlocksOfLetters(numberOfDocumentary);
+        ActionsWitTheDocumentNumber.outputOnlyLetters(numberOfDocumentary);
+        ActionsWitTheDocumentNumber.checkingTheContentOfTheSequence(numberOfDocumentary);
+        ActionsWitTheDocumentNumber.checkingTheLastNumber(numberOfDocumentary);
     }
 
 
