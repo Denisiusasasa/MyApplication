@@ -33,7 +33,6 @@ public class App {
             System.out.println();
             pet.printInfoAboutAnimal();
         }
-
     }
 
     private static void enterAnimalAndDeleteAnimal() {
