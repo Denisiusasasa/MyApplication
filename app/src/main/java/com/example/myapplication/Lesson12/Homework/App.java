@@ -25,7 +25,6 @@ public class App {
         System.out.println("Enter animal to delete");
         enterAnimalAndDeleteAnimal();
         printInfoAboutAnimals();
-
     }
 
     private static void printInfoAboutAnimals() {
