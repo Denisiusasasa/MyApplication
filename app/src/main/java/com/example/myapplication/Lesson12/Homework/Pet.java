@@ -1,6 +1,6 @@
 package com.example.myapplication.Lesson12.Homework;
 
-public class Pet {
+abstract class Pet {
     private final String name;
     private final String breed;
 
