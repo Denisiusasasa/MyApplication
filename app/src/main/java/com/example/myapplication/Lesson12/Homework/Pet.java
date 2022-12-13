@@ -19,6 +19,4 @@ public class Pet {
     public void printInfoAboutAnimal(){
         System.out.println("Name" + getName() + "Breed" + getBreed());
     }
-
-
 }
